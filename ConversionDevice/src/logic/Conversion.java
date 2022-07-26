@@ -1,4 +1,4 @@
-package ConversionDevice.logic;
+package ConversionDevice.src.logic;
 
 public class Conversion {
 	public static Float convertFeetToInches(Float feets) {
