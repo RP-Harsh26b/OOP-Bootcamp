@@ -1,16 +1,16 @@
-package ConversionDevice.src.logic;
+package logic;
 
 public class Converter {
-	private static final Integer FEET_TO_INCH = 12;
-	private static final Integer YARD_TO_FEET = 3;
+	private static final int FEET_TO_INCH = 12;
+	private static final int YARD_TO_FEET = 3;
 	private static final float INCH_TO_FEET = (float) (1.0 / 12.0);
 	private static final float FEET_TO_YARD = (float) (1.0 / 3.0);
 
-	public static Float convertFeetToInches(Float feetToBeConverted) {
+	public static float convertFeetToInches(float feetToBeConverted) {
 		return feetToBeConverted * FEET_TO_INCH;
 	}
 
-	public static Float convertYardsToFeet(Float yardsToBeConverted) {
+	public static float convertYardsToFeet(float yardsToBeConverted) {
 		return yardsToBeConverted * YARD_TO_FEET;
 	}
 
