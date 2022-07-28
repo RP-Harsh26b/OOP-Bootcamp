@@ -41,7 +41,7 @@ public class FizzBuzz {
 			} catch (Exception exception) {
 				System.err.println("====Invalid Choice Type====");
 				System.err.println(exception);
-				System.err.println("Please enter a Integer Value!!");
+				System.err.println("Please enter a Integer Valued Choice!!");
 			}
 		}
 	}
